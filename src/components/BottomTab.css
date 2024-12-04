@@ -1,0 +1,39 @@
+.BottomTab {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: var(--navbar-height);
+  padding-left: 16px;
+  font-weight: bold;
+  /* letter-spacing: 1px; */
+  color: rgb(201, 201, 201);
+  gap: 24px;
+  border-top: white solid 2px;
+}
+
+.social_icons {
+  margin-right: 6px;
+  font-size: 20px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+  font-weight: normal;
+}
+
+.icon-container p {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.icon-container:hover {
+  cursor: pointer;
+  opacity: 65%;
+}
+
+@media (max-width: 500px) {
+  .icon-container p {
+    font-size: 14px;
+  }
+}

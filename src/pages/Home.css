@@ -1,0 +1,31 @@
+.splashTextContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 4% 2% 2% 6%;
+}
+
+.splashTextContainer h1 {
+  font-weight: 900;
+  /* font-size: 3vw; */
+  font-size: 64px;
+  line-height: 1;
+}
+
+.splashTextContainer h2 {
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 1;
+}
+
+.splashParagraphContainer {
+  margin: 32px 0px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #d8d8d8;
+}
+
+.splashPageButtonGroupContainer {
+  display: flex;
+  margin-top: 8px;
+  gap: 24px;
+}

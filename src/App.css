@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #5c606a;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #0d0d0d;
+  color: white;
+}
+
+/* make css margin variable */
+:root {
+  --left-padding: 14px;
+  --navbar-height: 64px;
+}
+
+.roach-modal-header {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.WhiteboardsViewPort {
+  height: calc(100vh - var(--navbar-height) * 2);
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: #0b0b0b;
+  overflow: hidden;
+}

@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 32px;
+  font-weight: bolder;
+  width: 100%;
+  height: var(--navbar-height);
+  padding-left: var(--left-padding);
+  border-bottom: white solid 2px;
+}
+
+.title:hover {
+  cursor: pointer;
+  color: rgb(255, 255, 255, 0.8);
+}
+
+.navbarButtonGroup {
+  -ms-flex-align: end;
+  padding-right: var(
+    --left-padding
+  ); /* reusing same padding as the RoachRad.io logo */
+}
+
+.navbarButton {
+  border: 1px solid grey;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0px 12px;
+}
+
+/* Mobile support */
+@media (max-width: 768px) {
+  .navbar {
+    font-size: 24px;
+  }
+
+  .NavbarUserName {
+    display: none !important;
+  }
+}
