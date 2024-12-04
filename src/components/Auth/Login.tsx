@@ -6,7 +6,6 @@ import { z } from 'zod';
 
 import LogInForm, { logInFormSchema } from './LoginForm';
 import RegisterForm, { registerFormSchema } from './RegisterForm';
-import UserInfoForm from './UserInfoForm';
 import { useAuth } from '../../contexts/AuthContext';
 import { Alert, AlertTitle } from '@/components/ui/alert';
 import {
@@ -83,7 +82,6 @@ export default function Login() {
               loading={loading}
             />
           )}
-          {loginStep === 'user-info' && <UserInfoForm />}
           {errorMessage.length > 0 && (
             <Alert variant="destructive">
               <AlertCircle className="h-4 w-4" />

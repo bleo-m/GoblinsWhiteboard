@@ -1,6 +1,6 @@
 import { DocumentData } from 'firebase-admin/firestore';
 
-import { type Chunk } from './collection';
+import { type Chunk } from './collection.js';
 
 type WhiteboardResponse = {
   id: string;
